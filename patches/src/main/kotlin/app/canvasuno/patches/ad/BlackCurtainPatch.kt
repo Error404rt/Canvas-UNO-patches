@@ -29,7 +29,7 @@ val blackCurtainPatch = bytecodePatch(
         CustomApplicationOnCreateFingerprint.method.addInstructions(
             0,
             """
-                invoke-static {p0}, $HOOK_CLASS;->init(Landroid/app/Application;)V
+                invoke-static {p0}, $HOOK_CLASS->init(Landroid/app/Application;)V
             """,
         )
     }
