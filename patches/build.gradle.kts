@@ -1,12 +1,11 @@
-group = "app.template"
+group = "app.canvasuno"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "Canvas UNO"
+        description = "Focus solely on the game without being distracted by adverts."
+        source = "git@github.com:Error404rt/canvas-UNO-patches.git"
+        author = "Error404rt"
         contact = "na"
         website = "na"
         license = "GPLv3"
