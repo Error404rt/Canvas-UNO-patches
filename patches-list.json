@@ -1,5 +1,76 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.0.0",
-  "patches": []
+  "version": "1.0.0-dev.1",
+  "patches": [
+    {
+      "name": "Black curtain",
+      "description": "Hides fullscreen ad visuals behind a black screen while keeping close and skip buttons visible.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.matteljv.uno",
+          "name": "UNO",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#E4002B",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.17.9681",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Mute ad sound",
+      "description": "Mutes the system media volume while an ad is playing and restores it afterwards.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.matteljv.uno",
+          "name": "UNO",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#E4002B",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.17.9681",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
 }
