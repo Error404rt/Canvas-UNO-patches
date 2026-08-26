@@ -1,3 +1,9 @@
+## [1.0.0-dev.3](https://github.com/Error404rt/canvas-UNO-patches/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-08-26)
+
+### 🐛 Bug Fixes
+
+* mute ad sound error hook fixed ([a371474](https://github.com/Error404rt/canvas-UNO-patches/commit/a3714748a9b37b1195be61ae9f46186cfcb7bbb3))
+
 ## [1.0.0-dev.2](https://github.com/Error404rt/canvas-UNO-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-08-26)
 
 ### 🐛 Bug Fixes
