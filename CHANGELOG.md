@@ -1,3 +1,9 @@
+## [1.0.0-dev.2](https://github.com/Error404rt/canvas-UNO-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-08-26)
+
+### 🐛 Bug Fixes
+
+* syntax error hook ([21c42bc](https://github.com/Error404rt/canvas-UNO-patches/commit/21c42bca6e4938d16a66ab981ace629c77f63280))
+
 ## 1.0.0-dev.1 (2026-08-26)
 
 ### 🐛 Bug Fixes
